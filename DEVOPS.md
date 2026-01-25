@@ -1,5 +1,8 @@
 # DevOps Documentation
 
+<img width="1920" height="1027" alt="show" src="https://github.com/user-attachments/assets/d9b93e5e-0bfc-4513-b530-105a2a0521b4" />
+
+
 ## Setup Guide
 
 ### Local Development
