@@ -68,7 +68,7 @@ jobs:
       id: meta-backend
       uses: docker/metadata-action@v5
       with:
-        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-backend
+        images: ${{ env.REGISTRY }}/${{ github.actor }}/devops-assessment-backend
         tags: |
           type=ref,event=branch
           type=ref,event=pr
@@ -86,7 +86,7 @@ jobs:
       id: meta-frontend
       uses: docker/metadata-action@v5
       with:
-        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}-frontend
+        images: ${{ env.REGISTRY }}/${{ github.actor }}/devops-assessment-frontend
         tags: |
           type=ref,event=branch
           type=ref,event=pr
