@@ -37,6 +37,13 @@ terraform apply
 - Ports 80, 443, 22 open
 - Outputs instance public IP for access
 
+### CI/CD Pipeline
+The GitHub Actions workflow automatically:
+- Tests Django backend and React frontend
+- Builds Docker images
+- Pushes to Docker Hub: `mt67rtum/devops-assessment-backend` and `mt67rtum/devops-assessment-frontend`
+- Deploys to production
+
 ## Troubleshooting Log
 
 ### Challenge 1: Frontend Build Fails
@@ -47,6 +54,6 @@ terraform apply
 **Problem:** Django 6.0.1 required Python 3.12+.
 **Solution:** Downgraded to Django 5.0.1 for Python 3.10 compatibility.
 
-### Challenge 3: Permission Issues
-**Problem:** Containers failed to start as non-root users.
-**Solution:** Created dedicated users and set proper file ownership in Dockerfiles.
+### Challenge 3: Docker Hub Authentication
+**Problem:** CI/CD pipeline failed with "push access denied" errors.
+**Solution:** Updated Docker Hub username to `mt67rtum` and created proper repositories on Docker Hub.
