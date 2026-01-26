@@ -1,3 +1,10 @@
+> 👉 **Looking for DevOps docs?**  
+> Go to [DEVOPS.md](DEVOPS.md)
+
+
+
+
+
 # DevOps Assessment Application
 
 A simple "Hello World" full-stack application built with **Django** (Backend) and **React with Vite** (Frontend).
