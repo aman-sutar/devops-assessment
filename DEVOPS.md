@@ -64,4 +64,4 @@ The GitHub Actions workflow automatically:
 
 ### Challenge 3: Docker Hub Authentication
 **Problem:** CI/CD pipeline failed with "push access denied" errors.
-**Solution:** Updated Docker Hub username to `mt67rtum` and created proper repositories on Docker Hub.
+**Solution:** Updated Docker Hub username to `mt67rtum` and created proper repositories on Docker Hub. "mt67rtum" username is owned by me & used for this task dockerhub account.
