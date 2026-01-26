@@ -1,7 +1,9 @@
-> 👉 **Looking for DevOps docs?**  
-> Go to [DEVOPS.md](DEVOPS.md)
+[![Live App](https://img.shields.io/badge/Live-App-green)](http://15.207.102.245:3000/)
+[![DevOps Docs](https://img.shields.io/badge/Docs-DevOps-blue)](./DEVOPS.md)
 
 
+> 🚀 **Deployed URL:** (http://15.207.102.245:3000/)  
+> 📄 **DevOps Documentation:** [devops.md](./devops.md)
 
 
 
