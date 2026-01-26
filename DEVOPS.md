@@ -35,6 +35,11 @@ terraform plan
 terraform apply
 ```
 
+
+**Access:**
+- Frontend: http://your-server-ip:3000
+
+
 **Provisions:**
 - EC2 Instance with security groups
 - Ports 80, 443, 22 open
