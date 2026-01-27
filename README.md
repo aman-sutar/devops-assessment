@@ -3,7 +3,7 @@
 
 
 > 🚀 **Deployed URL:** (http://15.207.102.245:3000/)  
-> 📄 **DevOps Documentation:** [devops.md](./devops.md)
+> 📄 **DevOps Documentation:** [DEVOPS.md](./DEVOPS.md)
 
 
 
